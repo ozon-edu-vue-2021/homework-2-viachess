@@ -18,7 +18,7 @@ export default {
     fullTree: fullTree,
   }},
   components: {
-    'list-node': ListNode,
+    ListNode
   }
 }
 </script>

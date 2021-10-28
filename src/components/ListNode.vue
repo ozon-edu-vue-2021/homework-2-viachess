@@ -12,9 +12,9 @@
       class="dirlist"
     >
       <list-node
-        v-for="(subFile, index) in file.contents"
+        v-for="subFile in file.contents"
         v-bind:file="subFile"
-        v-bind:key="index"
+        v-bind:key="subFile.name"
       ></list-node>
     </ul>
   </li>
