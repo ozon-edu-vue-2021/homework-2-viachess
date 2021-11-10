@@ -1,28 +1,37 @@
+
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <ul id="tree">
+    <list-node v-bind:file="fullTree" />
+  </ul>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ListNode from './components/ListNode.vue'
+// import testTree from '../public/static/babel_test.json';
+import fullTree from '../public/static/node_modules.json';
+
 
 export default {
   name: 'App',
+  data: () => {
+    return {
+    fullTree: fullTree,
+  }},
   components: {
-    HelloWorld
+    ListNode
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+#tree {
+  font-family: sans-serif;
+  margin-top: 2rem;
+  margin-left: 4rem;
 }
 </style>

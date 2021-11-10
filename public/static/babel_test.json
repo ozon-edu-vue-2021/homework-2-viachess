@@ -1,0 +1,231 @@
+{
+  "type": "directory",
+  "name": "node_modules",
+  "contents": [
+    {
+      "type": "directory",
+      "name": "@babel",
+      "contents": [
+        {
+          "type": "directory",
+          "name": "code-frame",
+          "contents": [
+            { "type": "file", "name": "LICENSE" },
+            {
+              "type": "link",
+              "name": "sc-storybook",
+              "target": "../../packages/storybook",
+              "contents": []
+            },
+            { "type": "file", "name": "README.md" },
+            {
+              "type": "directory",
+              "name": "lib",
+              "contents": [{ "type": "file", "name": "index.js" }]
+            },
+            { "type": "file", "name": "package.json" }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "compat-data",
+          "contents": [
+            { "type": "file", "name": "LICENSE" },
+            { "type": "file", "name": "corejs2-built-ins.js" },
+            { "type": "file", "name": "corejs3-shipped-proposals.js" },
+            {
+              "type": "directory",
+              "name": "data",
+              "contents": [
+                { "type": "file", "name": "corejs2-built-ins.json" },
+                { "type": "file", "name": "corejs3-shipped-proposals.json" },
+                { "type": "file", "name": "native-modules.json" },
+                { "type": "file", "name": "overlapping-plugins.json" },
+                { "type": "file", "name": "plugin-bugfixes.json" },
+                { "type": "file", "name": "plugins.json" }
+              ]
+            },
+            { "type": "file", "name": "native-modules.js" },
+            { "type": "file", "name": "overlapping-plugins.js" },
+            { "type": "file", "name": "package.json" },
+            { "type": "file", "name": "plugin-bugfixes.js" },
+            { "type": "file", "name": "plugins.js" }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "core",
+          "contents": [
+            { "type": "file", "name": "LICENSE" },
+            { "type": "file", "name": "README.md" },
+            {
+              "type": "directory",
+              "name": "lib",
+              "contents": [
+                {
+                  "type": "directory",
+                  "name": "config",
+                  "contents": [
+                    { "type": "file", "name": "cache-contexts.js" },
+                    { "type": "file", "name": "caching.js" },
+                    { "type": "file", "name": "config-chain.js" },
+                    { "type": "file", "name": "config-descriptors.js" },
+                    {
+                      "type": "directory",
+                      "name": "files",
+                      "contents": [
+                        { "type": "file", "name": "configuration.js" },
+                        { "type": "file", "name": "import.js" },
+                        { "type": "file", "name": "index-browser.js" },
+                        { "type": "file", "name": "index.js" },
+                        { "type": "file", "name": "module-types.js" },
+                        { "type": "file", "name": "package.js" },
+                        { "type": "file", "name": "plugins.js" },
+                        { "type": "file", "name": "types.js" },
+                        { "type": "file", "name": "utils.js" }
+                      ]
+                    },
+                    { "type": "file", "name": "full.js" },
+                    {
+                      "type": "directory",
+                      "name": "helpers",
+                      "contents": [
+                        { "type": "file", "name": "config-api.js" },
+                        { "type": "file", "name": "environment.js" }
+                      ]
+                    },
+                    { "type": "file", "name": "index.js" },
+                    { "type": "file", "name": "item.js" },
+                    { "type": "file", "name": "partial.js" },
+                    { "type": "file", "name": "pattern-to-regex.js" },
+                    { "type": "file", "name": "plugin.js" },
+                    { "type": "file", "name": "printer.js" },
+                    { "type": "file", "name": "resolve-targets-browser.js" },
+                    { "type": "file", "name": "resolve-targets.js" },
+                    { "type": "file", "name": "util.js" },
+                    {
+                      "type": "directory",
+                      "name": "validation",
+                      "contents": [
+                        { "type": "file", "name": "option-assertions.js" },
+                        { "type": "file", "name": "options.js" },
+                        { "type": "file", "name": "plugins.js" },
+                        { "type": "file", "name": "removed.js" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "gensync-utils",
+                  "contents": [
+                    { "type": "file", "name": "async.js" },
+                    { "type": "file", "name": "fs.js" }
+                  ]
+                },
+                { "type": "file", "name": "index.js" },
+                { "type": "file", "name": "parse.js" },
+                {
+                  "type": "directory",
+                  "name": "parser",
+                  "contents": [
+                    { "type": "file", "name": "index.js" },
+                    {
+                      "type": "directory",
+                      "name": "util",
+                      "contents": [
+                        { "type": "file", "name": "missing-plugin-helper.js" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "tools",
+                  "contents": [
+                    { "type": "file", "name": "build-external-helpers.js" }
+                  ]
+                },
+                { "type": "file", "name": "transform-ast.js" },
+                { "type": "file", "name": "transform-file-browser.js" },
+                { "type": "file", "name": "transform-file.js" },
+                { "type": "file", "name": "transform.js" },
+                {
+                  "type": "directory",
+                  "name": "transformation",
+                  "contents": [
+                    { "type": "file", "name": "block-hoist-plugin.js" },
+                    {
+                      "type": "directory",
+                      "name": "file",
+                      "contents": [
+                        { "type": "file", "name": "file.js" },
+                        { "type": "file", "name": "generate.js" },
+                        { "type": "file", "name": "merge-map.js" }
+                      ]
+                    },
+                    { "type": "file", "name": "index.js" },
+                    { "type": "file", "name": "normalize-file.js" },
+                    { "type": "file", "name": "normalize-opts.js" },
+                    { "type": "file", "name": "plugin-pass.js" },
+                    {
+                      "type": "directory",
+                      "name": "util",
+                      "contents": [
+                        { "type": "file", "name": "clone-deep-browser.js" },
+                        { "type": "file", "name": "clone-deep.js" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "directory",
+              "name": "node_modules",
+              "contents": [
+                {
+                  "type": "directory",
+                  "name": "source-map",
+                  "contents": [
+                    { "type": "file", "name": "CHANGELOG.md" },
+                    { "type": "file", "name": "LICENSE" },
+                    { "type": "file", "name": "README.md" },
+                    {
+                      "type": "directory",
+                      "name": "dist",
+                      "contents": [
+                        { "type": "file", "name": "source-map.debug.js" },
+                        { "type": "file", "name": "source-map.js" },
+                        { "type": "file", "name": "source-map.min.js" },
+                        { "type": "file", "name": "source-map.min.js.map" }
+                      ]
+                    },
+                    {
+                      "type": "directory",
+                      "name": "lib",
+                      "contents": [
+                        { "type": "file", "name": "array-set.js" },
+                        { "type": "file", "name": "base64-vlq.js" },
+                        { "type": "file", "name": "base64.js" },
+                        { "type": "file", "name": "binary-search.js" },
+                        { "type": "file", "name": "mapping-list.js" },
+                        { "type": "file", "name": "quick-sort.js" },
+                        { "type": "file", "name": "source-map-consumer.js" },
+                        { "type": "file", "name": "source-map-generator.js" },
+                        { "type": "file", "name": "source-node.js" },
+                        { "type": "file", "name": "util.js" }
+                      ]
+                    },
+                    { "type": "file", "name": "package.json" },
+                    { "type": "file", "name": "source-map.js" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
